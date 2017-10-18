@@ -1,0 +1,31 @@
+body{
+    padding:20px
+  }
+  #outline{
+    width:960px;
+    border:10px solid darkgreen;
+    margin:0 auto;
+     text-align: center;
+      }
+  #insert {
+    width:960px;
+    border:10px solid olive;
+    margin:0 auto;
+     text-align: center;
+  }
+  
+  
+  #dollah{
+     width:960px;
+    border:10px solid green;
+    margin:0 auto;
+     text-align: center;
+  }
+  #change {
+     width:960px;
+    border:10px solid gold;
+    margin:0 auto;
+     text-align: center;
+    
+    
+  }

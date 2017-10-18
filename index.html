@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <title>Change Calculator</title>
+    
+  </head>
+<body>
+     
+      <div id='outline' >
+          <h1 text ="Change Calculator">Change Calculator</h1>
+          </div>
+       
+     <div id='insert' >
+       <h3> <p>How Much is due for sale?</p></h3>  
+ <input id="amount-due" type="text" placeholder="Price"></input>
+  
+     <h3> <p>How much customer has paid?</p></h3>
+     <input id="amount-recieved" type="text" placeholder="Pay-up"></input>
+ 
+  
+   <div id='button'>
+   <button id='calculate-change' value="sumbmit "onclick='handleClickEvent()'>Calculate-Change</button>
+ </div>
+   </div>
+ 
+ <div id="dollah">
+      <h1>Dollars</h1>
+             <p id='dollars-output'>0</p>
+ </div>
+   
+ <table id='change'>
+   <tr>
+    <td><h2>Quarters</h2>
+      <p id="quarters-output">0</p></td>
+     <td> <h2>Dimes</h2>
+       <p id="dimes-output">0</p></td>
+     <td> <h2>Nickels</h2>
+       <p id="nickels-output">0</h1></td>
+      <td><h2>Pennies</h2>
+        <p id="pennies-output">0</p></td>
+   </tr>
+  </table>
+  <script src="main.js"></script>
+ </body>
+
+</html>
